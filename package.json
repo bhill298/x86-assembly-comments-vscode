@@ -3,7 +3,7 @@
   "displayName": "x86-assembly-comments",
   "description": "Syntax highlighting for x86 assembly comments",
   "version": "0.0.1",
-  "publisher": "someone",
+  "publisher": "bhill298",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -16,5 +16,9 @@
       "scopeName": "asm-comment.injection",
       "injectTo": ["source.asm.x86_64"]
     }]
+  },
+  "repository": {
+    "url": "https://github.com/bhill298/x86-assembly-comments-vscode",
+    "type": "git"
   }
 }
