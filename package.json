@@ -1,0 +1,20 @@
+{
+  "name": "x86-assembly-comments",
+  "displayName": "x86-assembly-comments",
+  "description": "Syntax highlighting for x86 assembly comments",
+  "version": "0.0.1",
+  "publisher": "someone",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [{
+      "path": "./syntaxes/injection.json",
+      "scopeName": "asm-comment.injection",
+      "injectTo": ["source.asm.x86_64"]
+    }]
+  }
+}

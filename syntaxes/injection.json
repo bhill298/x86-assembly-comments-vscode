@@ -1,0 +1,18 @@
+{
+    "scopeName": "asm-comment.injection",
+	"injectionSelector": "L:source.asm.x86_64",
+    "patterns": [
+        {
+            "name": "comment.line.double-slash.asm",
+            "begin": "//",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.comment.asm"
+                }
+            },
+            "end": "$",
+            "patterns": []
+        }
+    ],
+    "repository": {}
+}
